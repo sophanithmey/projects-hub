@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="wedding-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180407"/>
+      <stop offset="50%" stop-color="#300910"/>
+      <stop offset="100%" stop-color="#140306"/>
+    </linearGradient>
+    <linearGradient id="gold-wedding" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="40%" stop-color="#d4af37"/>
+      <stop offset="80%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#fef08a"/>
+    </linearGradient>
+    <radialGradient id="wedding-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="gold-shimmer">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#wedding-bg)"/>
+  <!-- Ambient Gold Light -->
+  <circle cx="600" cy="337" r="300" fill="url(#wedding-glow)"/>
+  <!-- Decorative Elegant Border -->
+  <rect x="50" y="45" width="1100" height="585" rx="24" fill="none" stroke="url(#gold-wedding)" stroke-width="2"/>
+  <rect x="62" y="57" width="1076" height="561" rx="16" fill="none" stroke="#d4af37" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="8 8"/>
+  <!-- Corner Floral Flourishes -->
+  <g fill="none" stroke="#d4af37" stroke-width="2">
+    <path d="M 80 120 Q 80 80 120 80"/>
+    <circle cx="120" cy="80" r="4" fill="#d4af37"/>
+    <path d="M 1120 120 Q 1120 80 1080 80"/>
+    <circle cx="1080" cy="80" r="4" fill="#d4af37"/>
+    <path d="M 80 555 Q 80 595 120 595"/>
+    <circle cx="120" cy="595" r="4" fill="#d4af37"/>
+    <path d="M 1120 555 Q 1120 595 1080 595"/>
+    <circle cx="1080" cy="595" r="4" fill="#d4af37"/>
+  </g>
+  <!-- Central Wedding Invitation Card -->
+  <g transform="translate(600, 337)">
+    <!-- Card Frame -->
+    <rect x="-240" y="-180" width="480" height="360" rx="20" fill="#24070c" stroke="url(#gold-wedding)" stroke-width="3" filter="drop-shadow(0 20px 40px rgba(0,0,0,0.8))"/>
+    <rect x="-225" y="-165" width="450" height="330" rx="14" fill="#1b0509" stroke="#d4af37" stroke-opacity="0.2" stroke-width="1"/>
+    <!-- Interlocking Golden Rings -->
+    <g transform="translate(0, -90)">
+      <circle cx="-16" cy="0" r="26" fill="none" stroke="url(#gold-wedding)" stroke-width="4" filter="url(#gold-shimmer)"/>
+      <circle cx="16" cy="0" r="26" fill="none" stroke="url(#gold-wedding)" stroke-width="4" filter="url(#gold-shimmer)"/>
+      <polygon points="16,-34 22,-26 10,-26" fill="#fef08a"/>
+    </g>
+    <!-- Khmer Wedding Typography -->
+    <text x="0" y="-20" text-anchor="middle" fill="#d4af37" font-family="'Moul', 'Kantumruy Pro', serif" font-size="28" font-weight="700">សួស្តី · SOURSDEY</text>
+    <text x="0" y="15" text-anchor="middle" fill="#fff1f2" font-family="'Cinzel', serif" font-size="16" font-weight="600" letter-spacing="2">KHMER DIGITAL WEDDINGS</text>
+    <text x="0" y="45" text-anchor="middle" fill="#fb7185" font-family="sans-serif" font-size="12">សិរី &amp; មង្គល · Premium Digital Invitations</text>
+    <!-- Feature Pills -->
+    <g transform="translate(0, 95)">
+      <rect x="-180" y="0" width="110" height="28" rx="14" fill="#380a13" stroke="#d4af37" stroke-width="1"/>
+      <text x="-125" y="18" text-anchor="middle" fill="#fef08a" font-size="11">📍 Live Maps</text>
+      <rect x="-55" y="0" width="110" height="28" rx="14" fill="#380a13" stroke="#d4af37" stroke-width="1"/>
+      <text x="0" y="18" text-anchor="middle" fill="#fef08a" font-size="11">💌 Smart RSVP</text>
+      <rect x="70" y="0" width="110" height="28" rx="14" fill="#380a13" stroke="#d4af37" stroke-width="1"/>
+      <text x="125" y="18" text-anchor="middle" fill="#fef08a" font-size="11">🗓️ Itinerary</text>
+    </g>
+  </g>
+</svg>

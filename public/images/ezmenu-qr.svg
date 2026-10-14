@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="ez-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140a04"/>
+      <stop offset="50%" stop-color="#241206"/>
+      <stop offset="100%" stop-color="#100803"/>
+    </linearGradient>
+    <linearGradient id="orange-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#ez-bg)"/>
+  <!-- Central Mobile Phone Mockup -->
+  <g transform="translate(600, 337)">
+    <rect x="-130" y="-270" width="260" height="540" rx="36" fill="#18181b" stroke="#3f3f46" stroke-width="3" filter="drop-shadow(0 25px 35px rgba(0,0,0,0.7))"/>
+    <!-- Screen -->
+    <rect x="-115" y="-250" width="230" height="500" rx="24" fill="#09090b"/>
+    <!-- Top notch -->
+    <rect x="-40" y="-245" width="80" height="18" rx="9" fill="#27272a"/>
+    <!-- App Header -->
+    <rect x="-115" y="-220" width="230" height="55" fill="url(#orange-grad)"/>
+    <text x="0" y="-185" text-anchor="middle" fill="#ffffff" font-family="'Kantumruy Pro', sans-serif" font-size="16" font-weight="800">EZMenu · តុលេខ ០៥</text>
+    <!-- Food Item Card 1 -->
+    <g transform="translate(-100, -145)">
+      <rect x="0" y="0" width="200" height="70" rx="10" fill="#18181b" stroke="#27272a"/>
+      <text x="12" y="28" fill="#f4f4f5" font-size="13" font-weight="700">អាម៉ុកត្រី (Fish Amok)</text>
+      <text x="12" y="52" fill="#f97316" font-family="monospace" font-size="13" font-weight="700">$ 4.50</text>
+    </g>
+    <!-- Food Item Card 2 -->
+    <g transform="translate(-100, -65)">
+      <rect x="0" y="0" width="200" height="70" rx="10" fill="#18181b" stroke="#27272a"/>
+      <text x="12" y="28" fill="#f4f4f5" font-size="13" font-weight="700">បាយឆាក្តាម (Crab Rice)</text>
+      <text x="12" y="52" fill="#f97316" font-family="monospace" font-size="13" font-weight="700">$ 5.00</text>
+    </g>
+    <!-- Food Item Card 3 -->
+    <g transform="translate(-100, 15)">
+      <rect x="0" y="0" width="200" height="70" rx="10" fill="#18181b" stroke="#27272a"/>
+      <text x="12" y="28" fill="#f4f4f5" font-size="13" font-weight="700">កាហ្វេទឹកដោះគោទឹកកក</text>
+      <text x="12" y="52" fill="#f97316" font-family="monospace" font-size="13" font-weight="700">$ 1.75</text>
+    </g>
+    <!-- Order Button -->
+    <rect x="-100" y="180" width="200" height="44" rx="22" fill="url(#orange-grad)"/>
+    <text x="0" y="208" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="700">🛒 កុម្ម៉ង់ឥឡូវនេះ · $11.25</text>
+  </g>
+  <!-- Table QR Stand Graphic on Left -->
+  <g transform="translate(180, 200)">
+    <rect x="0" y="0" width="240" height="280" rx="20" fill="#1f1107" stroke="#431f0c" stroke-width="2"/>
+    <text x="120" y="45" text-anchor="middle" fill="#fb923c" font-family="sans-serif" font-size="16" font-weight="800">SCAN TO ORDER</text>
+    <!-- Simulated QR Code -->
+    <rect x="45" y="70" width="150" height="150" rx="12" fill="#ffffff"/>
+    <g fill="#000000">
+      <rect x="55" y="80" width="35" height="35"/>
+      <rect x="62" y="87" width="21" height="21" fill="#fff"/>
+      <rect x="68" y="93" width="9" height="9"/>
+      <rect x="150" y="80" width="35" height="35"/>
+      <rect x="157" y="87" width="21" height="21" fill="#fff"/>
+      <rect x="163" y="93" width="9" height="9"/>
+      <rect x="55" y="175" width="35" height="35"/>
+      <rect x="62" y="182" width="21" height="21" fill="#fff"/>
+      <rect x="68" y="188" width="9" height="9"/>
+      <!-- Data dots -->
+      <rect x="105" y="90" width="10" height="10"/>
+      <rect x="125" y="105" width="10" height="10"/>
+      <rect x="105" y="130" width="10" height="10"/>
+      <rect x="120" y="145" width="10" height="10"/>
+      <rect x="135" y="130" width="10" height="10"/>
+      <rect x="150" y="145" width="10" height="10"/>
+      <rect x="165" y="160" width="10" height="10"/>
+      <rect x="105" y="175" width="10" height="10"/>
+      <rect x="120" y="190" width="10" height="10"/>
+      <rect x="140" y="180" width="10" height="10"/>
+    </g>
+    <text x="120" y="250" text-anchor="middle" fill="#fed7aa" font-size="12">No App Download Needed</text>
+  </g>
+  <!-- Right Side Feature highlights -->
+  <g transform="translate(850, 200)">
+    <rect x="0" y="0" width="260" height="280" rx="16" fill="#1c0f07" stroke="#3d1d0c"/>
+    <text x="24" y="45" fill="#f97316" font-family="sans-serif" font-size="16" font-weight="700">Key Features</text>
+    <text x="24" y="90" fill="#fed7aa" font-size="13">⚡ Instant QR Table Scanning</text>
+    <text x="24" y="130" fill="#fed7aa" font-size="13">👨‍🍳 Kitchen Display (KDS)</text>
+    <text x="24" y="170" fill="#fed7aa" font-size="13">🇰🇭 Dual Khmer &amp; English</text>
+    <text x="24" y="210" fill="#fed7aa" font-size="13">📱 Offline PWA Capability</text>
+    <text x="24" y="250" fill="#fed7aa" font-size="13">💵 Multi-currency (KHR &amp; USD)</text>
+  </g>
+</svg>

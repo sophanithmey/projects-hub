@@ -1,0 +1,40 @@
+{
+  "name": "Sophanith Mey",
+  "title": "Creative Frontend Systems Developer",
+  "bio": "Building culturally resonant, high-performance web applications, financial tools, and interactive digital experiences deployed on Vercel.",
+  "location": "Phnom Penh, Cambodia",
+  "availableForHire": true,
+  "portfolioUrl": "https://sophanithmey.vercel.app/",
+  "socialLinks": [
+    {
+      "id": "portfolio",
+      "name": "Portfolio",
+      "url": "https://sophanithmey.vercel.app/",
+      "icon": "globe"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "url": "https://github.com/msophanith",
+      "icon": "github"
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "url": "https://t.me/sophanithmey",
+      "icon": "telegram"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/msphanith",
+      "icon": "linkedin"
+    },
+    {
+      "id": "mail",
+      "name": "Contact",
+      "url": "https://sophanithmey.vercel.app/",
+      "icon": "mail"
+    }
+  ]
+}

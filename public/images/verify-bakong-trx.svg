@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bakong-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0d"/>
+      <stop offset="50%" stop-color="#141014"/>
+      <stop offset="100%" stop-color="#08080a"/>
+    </linearGradient>
+    <linearGradient id="red-bakong" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bakong-bg)"/>
+  <!-- Central Glass Card -->
+  <rect x="250" y="65" width="700" height="545" rx="24" fill="#141419" stroke="#2a2a35" stroke-width="1.5"/>
+  <!-- Bakong Red Accent Ribbon -->
+  <path d="M 250 89 Q 250 65 274 65 L 926 65 Q 950 65 950 89 L 950 75 L 250 75 Z" fill="url(#red-bakong)"/>
+  <!-- Header -->
+  <g transform="translate(600, 140)">
+    <circle cx="0" cy="0" r="32" fill="#b91c1c" fill-opacity="0.2" stroke="#ef4444" stroke-width="2"/>
+    <text x="0" y="8" text-anchor="middle" fill="#ef4444" font-family="'Oxanium', sans-serif" font-size="24" font-weight="900">B</text>
+    <text x="0" y="60" text-anchor="middle" fill="#f3f4f6" font-family="sans-serif" font-size="22" font-weight="700">Verify Bakong Transaction</text>
+    <text x="0" y="85" text-anchor="middle" fill="#9ca3af" font-family="sans-serif" font-size="13">NBC Open API · OCR Camera Scan Verification</text>
+  </g>
+  <!-- Dropzone Scan Box -->
+  <g transform="translate(350, 260)">
+    <rect x="0" y="0" width="500" height="150" rx="16" fill="#1b1b22" stroke="#ef4444" stroke-opacity="0.4" stroke-width="2" stroke-dasharray="8 8"/>
+    <!-- Scanner frame corner marks -->
+    <path d="M 15 35 L 15 15 L 35 15" fill="none" stroke="#ef4444" stroke-width="3"/>
+    <path d="M 485 35 L 485 15 L 465 15" fill="none" stroke="#ef4444" stroke-width="3"/>
+    <path d="M 15 115 L 15 135 L 35 135" fill="none" stroke="#ef4444" stroke-width="3"/>
+    <path d="M 485 115 L 485 135 L 465 135" fill="none" stroke="#ef4444" stroke-width="3"/>
+    <circle cx="250" cy="55" r="24" fill="#262633"/>
+    <path d="M 240 55 L 247 62 L 262 47" fill="none" stroke="#10b981" stroke-width="3" stroke-linecap="round"/>
+    <text x="250" y="105" text-anchor="middle" fill="#e5e7eb" font-family="sans-serif" font-size="14" font-weight="600">Upload Bakong QR Slip or Receipt</text>
+    <text x="250" y="125" text-anchor="middle" fill="#6b7280" font-family="sans-serif" font-size="12">Automatic Tesseract OCR extraction</text>
+  </g>
+  <!-- Hash and Status Input Simulation -->
+  <g transform="translate(350, 440)">
+    <rect x="0" y="0" width="300" height="48" rx="10" fill="#1a1a24" stroke="#2d2d3d"/>
+    <text x="16" y="30" fill="#ef4444" font-family="monospace" font-size="15" font-weight="700">HASH: 78CDE08A</text>
+    <rect x="320" y="0" width="180" height="48" rx="10" fill="#065f46" stroke="#10b981"/>
+    <text x="410" y="30" text-anchor="middle" fill="#ecfdf5" font-family="sans-serif" font-size="14" font-weight="700">✓ VERIFIED</text>
+  </g>
+</svg>
